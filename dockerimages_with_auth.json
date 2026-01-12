@@ -70,7 +70,7 @@
       "Tag": "14.1.2.0-jdk21-ol8-250713",
       "OS/Architecture": "linux/amd64",
       "Size": "3.47 GB",
-      "Pull Command": "docker pull fmw-paas-sandbox-cert-docker.dockerhub-phx.oci.oraclecorp.com/oracle/soasuite:14.1.2.0-jdk21-ol8-250713",
+      "Pull Command": "docker pull fmw-paas-sandbox-cert-docker.dockerhub-phx.oci.oraclecorp.com/oracle/soasuite:14.1.2.0-jdk21-ol8-250713.055725",
       "Last Updated": "5 months ago",
       "Image ID": "bd4862e73676"
     },
