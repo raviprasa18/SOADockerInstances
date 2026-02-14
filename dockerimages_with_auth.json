@@ -2,349 +2,85 @@
   "username": "ravi.reddy@oracle.com",
   "authToken": "U2FsdGVkX1865e0pwEwDM0dzus1rXMa/wwE0yP2pUHIxNik+84s6434BheR4YxJX",
   "images": [
-    {
-      "Tag": "12.2.1.4-jdk8-ol9-251015",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.08 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9-251015",
-      "Last Updated": "3 months ago",
-      "Image ID": "525d6315e0c9"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol9",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.08 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9",
-      "Last Updated": "3 months ago",
-      "Image ID": "525d6315e0c9"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-251011",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.96 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-251011",
-      "Last Updated": "3 months ago",
-      "Image ID": "fde5d3863c69"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.96 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8",
-      "Last Updated": "3 months ago",
-      "Image ID": "fde5d3863c69"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol9-251011",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.59 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol9-251011",
-      "Last Updated": "3 months ago",
-      "Image ID": "7cb52ca86eeb"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol8-251011",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.49 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol8-251011",
-      "Last Updated": "3 months ago",
-      "Image ID": "fba8dfcd74d2"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol9-251011",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.61 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol9-251011",
-      "Last Updated": "3 months ago",
-      "Image ID": "de277ea6feac"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol8-251011",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.47 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol8-251011",
-      "Last Updated": "3 months ago",
-      "Image ID": "bd4862e73676"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol8-250713",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.47 GB",
-      "Pull Command": "docker pull fmw-paas-sandbox-cert-docker.dockerhub-phx.oci.oraclecorp.com/oracle/soasuite:14.1.2.0-jdk21-ol8-250713.055725",
-      "Last Updated": "5 months ago",
-      "Image ID": "bd4862e73676"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol9-250708",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.17 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9-250708",
-      "Last Updated": "5 months ago",
-      "Image ID": "312ba248324a"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-250708",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.02 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-250708",
-      "Last Updated": "5 months ago",
-      "Image ID": "b72e14f4a70b"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol9-250424",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.55 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol9-250424",
-      "Last Updated": "8 months ago",
-      "Image ID": "aed934b2deb1"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol9-250424",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.56 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol9-250424",
-      "Last Updated": "8 months ago",
-      "Image ID": "ce7d5288f79f"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol8-250424",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.42 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol8-250424",
-      "Last Updated": "8 months ago",
-      "Image ID": "9bd87d3649e7"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol8-250424",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.41 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol8-250424",
-      "Last Updated": "8 months ago",
-      "Image ID": "b74ee044d5c1"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-250419",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.94 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-250419",
-      "Last Updated": "9 months ago",
-      "Image ID": "7585b73eb3f6"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol9-250419",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.08 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9-250419",
-      "Last Updated": "9 months ago",
-      "Image ID": "0f50869da111"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-250115",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-250115",
-      "Last Updated": "12 months ago",
-      "Image ID": "3a8387c8dab9"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-241016",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.95 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-241016",
-      "Last Updated": "1.2 years ago",
-      "Image ID": "7e5b290049dd"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-241016",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.92 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-241016",
-      "Last Updated": "1.2 years ago",
-      "Image ID": "cb26945db656"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-240712",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.94 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-240712",
-      "Last Updated": "1.5 years ago",
-      "Image ID": "53c9eb78192e"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-240712",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.91 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-240712",
-      "Last Updated": "1.5 years ago",
-      "Image ID": "83bbad65660f"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-240618",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.99 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-240618",
-      "Last Updated": "1.6 years ago",
-      "Image ID": "69d6525ea876"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-240430",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.96 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-240430",
-      "Last Updated": "1.7 years ago",
-      "Image ID": "8ceb4b56b671"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-240117",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.94 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-240117",
-      "Last Updated": "2 years ago",
-      "Image ID": "7d72a1d5c81f"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-240115",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-240115",
-      "Last Updated": "2 years ago",
-      "Image ID": "d657d2ae345c"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-231030",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.97 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-231030",
-      "Last Updated": "2.2 years ago",
-      "Image ID": "4117595f3c30"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-231016",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.94 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-231016",
-      "Last Updated": "2.2 years ago",
-      "Image ID": "557d94c71af1"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-230823",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.79 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-230823",
-      "Last Updated": "2.4 years ago",
-      "Image ID": "da76c59ab638"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-230823",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.81 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-230823",
-      "Last Updated": "2.4 years ago",
-      "Image ID": "ff65fa485c15"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol8-230502",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.79 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-230502",
-      "Last Updated": "2.7 years ago",
-      "Image ID": "20ecbc2bde5c"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-230502",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.77 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-230502",
-      "Last Updated": "2.7 years ago",
-      "Image ID": "12e38021dc1c"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-230120",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.79 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-230120",
-      "Last Updated": "3 years ago",
-      "Image ID": "8d7c40a4cff2"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-221111",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.74 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-221111",
-      "Last Updated": "3.2 years ago",
-      "Image ID": "0dd8231df425"
-    },
-    {
-      "Tag": "12.2.1.4-jdk8-ol7-220726",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.73 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol7-220726",
-      "Last Updated": "3.4 years ago",
-      "Image ID": "b094106b1cb9"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol9-241205",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.62 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:14.1.2.0-jdk17-ol9-241205",
-      "Last Updated": "7 months ago",
-      "Image ID": "4b3fd7f456bc"
-    },
-    {
-      "Tag": "14.1.2.0-jdk17-ol8-241205",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.47 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:14.1.2.0-jdk17-ol8-241205",
-      "Last Updated": "7 months ago",
-      "Image ID": "6db526c360ce"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol9-241205",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.63 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:14.1.2.0-jdk21-ol9-241205",
-      "Last Updated": "7 months ago",
-      "Image ID": "aa63654cf94a"
-    },
-    {
-      "Tag": "14.1.2.0-jdk21-ol8-241205",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.48 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:14.1.2.0-jdk21-ol8-241205",
-      "Last Updated": "7 months ago",
-      "Image ID": "f2f7ec225d2a"
-    },
-    {
-      "Tag": "12.2.1.4",
-      "OS/Architecture": "linux/amd64",
-      "Size": "2.64 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:12.2.1.4",
-      "Last Updated": "3.9 years ago",
-      "Image ID": "81492423ff60"
-    },
-    {
-      "Tag": "12.2.1.3-200418",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.32 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:12.2.1.3-200418",
-      "Last Updated": "5.7 years ago",
-      "Image ID": "8ed734a9634d"
-    },
-    {
-      "Tag": "12.2.1.3-190522",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.38 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:12.2.1.3-190522",
-      "Last Updated": "6.6 years ago",
-      "Image ID": "dc87fb2226c7"
-    },
-    {
-      "Tag": "12.2.1.3",
-      "OS/Architecture": "linux/amd64",
-      "Size": "3.38 GB",
-      "Pull Command": "docker pull container-registry.oracle.com/middleware/soasuite:12.2.1.3",
-      "Last Updated": "6.6 years ago",
-      "Image ID": "dc87fb2226c7"
-    }
-  ]
+  {
+    "tag": "14.1.2.0-jdk17-ol9-260118",
+    "os_architecture": "linux/amd64",
+    "size": "3.61 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol9-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "50251d36a1aa"
+  },
+  {
+    "tag": "14.1.2.0-jdk21-ol9-260118",
+    "os_architecture": "linux/amd64",
+    "size": "3.62 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol9-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "00ea0149130c"
+  },
+  {
+    "tag": "14.1.2.0-jdk21-ol8-260118",
+    "os_architecture": "linux/amd64",
+    "size": "3.48 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk21-ol8-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "a103fb1b7dfe"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol9-260118",
+    "os_architecture": "linux/amd64",
+    "size": "3.08 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "4da9f478e9a2"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol9",
+    "os_architecture": "linux/amd64",
+    "size": "3.08 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9",
+    "last_updated": "3 weeks ago",
+    "image_id": "4da9f478e9a2"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol8-260118",
+    "os_architecture": "linux/amd64",
+    "size": "2.93 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "ede7ed081338"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol8",
+    "os_architecture": "linux/amd64",
+    "size": "2.93 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8",
+    "last_updated": "3 weeks ago",
+    "image_id": "ede7ed081338"
+  },
+  {
+    "tag": "14.1.2.0-jdk17-ol8-260118",
+    "os_architecture": "linux/amd64",
+    "size": "3.46 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:14.1.2.0-jdk17-ol8-260118",
+    "last_updated": "3 weeks ago",
+    "image_id": "092ff171e017"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol9-251015",
+    "os_architecture": "linux/amd64",
+    "size": "3.08 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol9-251015",
+    "last_updated": "4 months ago",
+    "image_id": "525d6315e0c9"
+  },
+  {
+    "tag": "12.2.1.4-jdk8-ol8-251011",
+    "os_architecture": "linux/amd64",
+    "size": "2.96 GB",
+    "pull_command": "docker pull container-registry-ashburn.oracle.com/middleware/soasuite_cpu:12.2.1.4-jdk8-ol8-251011",
+    "last_updated": "4 months ago",
+    "image_id": "fde5d3863c69"
+  }
+]
 }
